@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Content/Main.umap",
+				"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Content/BP_ThirdPersonCharacter.uasset",
+				"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset"
+			]
+		}
+	]
+}
