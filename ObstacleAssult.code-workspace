@@ -1,0 +1,574 @@
+{
+	"folders": [
+		{
+			"name": "ObstacleAssult",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/Users/Shared/Epic Games/UE_5.4"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "ObstacleAssult Mac Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Debug",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Debug",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssult Mac Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Debug",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"DebugGame",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"DebugGame",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssult Mac DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"DebugGame",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Development",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Development",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssult Mac Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Development",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Test",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Test",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssult Mac Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Test",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Shipping",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Shipping",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssult Mac Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssult Mac Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssult",
+					"Mac",
+					"Shipping",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"Debug",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"Debug",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssultEditor Mac Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"Debug",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"DebugGame",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"DebugGame",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssultEditor Mac DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"DebugGame",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"Development",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"Development",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ObstacleAssultEditor Mac Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			},
+			{
+				"label": "ObstacleAssultEditor Mac Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ObstacleAssultEditor",
+					"Mac",
+					"Development",
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.4"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch ObstacleAssult (Debug)",
+				"request": "launch",
+				"program": "/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+				"preLaunchTask": "ObstacleAssult Mac Debug Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.4",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ObstacleAssult (DebugGame)",
+				"request": "launch",
+				"program": "/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+				"preLaunchTask": "ObstacleAssult Mac DebugGame Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.4",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ObstacleAssult (Development)",
+				"request": "launch",
+				"program": "/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+				"preLaunchTask": "ObstacleAssult Mac Development Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.4",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ObstacleAssult (Test)",
+				"request": "launch",
+				"program": "/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+				"preLaunchTask": "ObstacleAssult Mac Test Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.4",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ObstacleAssult (Shipping)",
+				"request": "launch",
+				"program": "/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+				"preLaunchTask": "ObstacleAssult Mac Shipping Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.4",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ObstacleAssultEditor (Debug)",
+				"request": "launch",
+				"program": "/Users/Shared/Epic Games/UE_5.4/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
+				"preLaunchTask": "ObstacleAssultEditor Mac Debug Build",
+				"args": [
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject"
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.4",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ObstacleAssultEditor (DebugGame)",
+				"request": "launch",
+				"program": "/Users/Shared/Epic Games/UE_5.4/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
+				"preLaunchTask": "ObstacleAssultEditor Mac DebugGame Build",
+				"args": [
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject"
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.4",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ObstacleAssultEditor (Development)",
+				"request": "launch",
+				"program": "/Users/Shared/Epic Games/UE_5.4/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
+				"preLaunchTask": "ObstacleAssultEditor Mac Development Build",
+				"args": [
+					"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject"
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.4",
+				"type": "lldb"
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Mac Development Build",
+				"program": "/Users/Shared/Epic Games/UE_5.4/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/Users/Shared/Epic Games/UE_5.4"
+			}
+		]
+	}
+}

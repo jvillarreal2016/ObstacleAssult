@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult/ObstacleAssult.Build.cs",
+		"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult.Target.cs",
+		"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Source/ObstacleAssultEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}
