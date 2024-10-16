@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		88877081D0AE1445E0DE011F = {isa = PBXBuildFile; fileRef = 6D2201172F39A8A80AE1F28F; }; /* MovingPlatform.cpp */
+		76815FA6AE84C3DF2362686C = {isa = PBXBuildFile; fileRef = 67E2EB6606F6E6557DF4CFB5; }; /* ObstacleAssult.cpp */
+		39A799C779365B4E9F469821 = {isa = PBXBuildFile; fileRef = 6EF1EB4E659A8BF798C986A9; }; /* SCK_Casual01.png */
+		C2EC4967880C28FB49956DC9 = {isa = PBXBuildFile; fileRef = 00F90B148E3D8203D2F96B67; }; /* Assets.xcassets */
+		0E4CE5EFCE1278C880E1F1FF = {isa = PBXBuildFile; fileRef = F143CF6690FBDBFFC43B9FE3; }; /* LaunchScreen.storyboardc */
+		FD14A4DB896C4F93B91BC400 = {isa = PBXBuildFile; fileRef = 3D1479432296AED3AD02CD02; }; /* UEMetadata */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		940AC694D607EE88F16DFF10 = {isa = PBXFileReference; explicitFileType = file.txt; name = "Link to Source Assets.txt"; path = "../../Link to Source Assets.txt"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 = {isa = PBXFileReference; explicitFileType = file.txt; name = "ObstacleAssult.code-workspace"; path = "../../ObstacleAssult.code-workspace"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 = {isa = PBXFileReference; explicitFileType = file.txt; name = "ObstacleAssult.uproject"; path = "../../ObstacleAssult.uproject"; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 = {isa = PBXFileReference; explicitFileType = image.png; name = "SCK_Casual01.png"; path = "../../SCK_Casual01.png"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B = {isa = PBXFileReference; explicitFileType = file.txt; name = "ObstacleAssult.Target.cs"; path = "../../Source/ObstacleAssult.Target.cs"; sourceTree = SOURCE_ROOT; };
+		6D2201172F39A8A80AE1F28F = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MovingPlatform.cpp"; path = "../../Source/ObstacleAssult/MovingPlatform.cpp"; sourceTree = SOURCE_ROOT; };
+		FB3539D67B5D22AEC659063B = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MovingPlatform.h"; path = "../../Source/ObstacleAssult/MovingPlatform.h"; sourceTree = SOURCE_ROOT; };
+		8A3868EDC5BA473C03160F5B = {isa = PBXFileReference; explicitFileType = file.txt; name = "ObstacleAssult.Build.cs"; path = "../../Source/ObstacleAssult/ObstacleAssult.Build.cs"; sourceTree = SOURCE_ROOT; };
+		67E2EB6606F6E6557DF4CFB5 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ObstacleAssult.cpp"; path = "../../Source/ObstacleAssult/ObstacleAssult.cpp"; sourceTree = SOURCE_ROOT; };
+		57AB909174F175353C17EB17 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ObstacleAssult.h"; path = "../../Source/ObstacleAssult/ObstacleAssult.h"; sourceTree = SOURCE_ROOT; };
+		011D1D682EF7CC9AD8746E64 = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "ObstacleAssult"; path = "ObstacleAssult"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F90B148E3D8203D2F96B67 = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		F143CF6690FBDBFFC43B9FE3 = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		3D1479432296AED3AD02CD02 = {isa = PBXFileReference; explicitFileType = file.txt; name = "UEMetadata"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		56007657EB0B2A0707BE8869 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "ObstacleAssult.xcconfig"; path = "XcconfigsMac/ObstacleAssult.xcconfig"; sourceTree = "<group>"; };
+		2056E7A1D8C6FA942AE138D1 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "ObstacleAssult_DebugGame.xcconfig"; path = "XcconfigsMac/ObstacleAssult_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		2FECF88A2A3BBEE9FA323BA4 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "ObstacleAssult_Development.xcconfig"; path = "XcconfigsMac/ObstacleAssult_Development.xcconfig"; sourceTree = "<group>"; };
+		2F2B8D3CC937A981202A72EB = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "ObstacleAssult_Shipping.xcconfig"; path = "XcconfigsMac/ObstacleAssult_Shipping.xcconfig"; sourceTree = "<group>"; };
+		2E146BBC255A1314FED5FA34 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../../Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		B62B61844ADC1754295A5345 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		CC43F47CB2DAB55BA5D1FC87 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E2065BF0745C6348F77AF15F = {
+			isa = PBXGroup;
+			children = (
+				9826D33E49A03A521C472DE6 /* Source */,
+				940AC694D607EE88F16DFF10 /* Link to Source Assets.txt */,
+				9F1A6E3CBDFC1C4D72A426E5 /* ObstacleAssult.code-workspace */,
+				F519DBC82B7C343B37F88500 /* ObstacleAssult.uproject */,
+				6EF1EB4E659A8BF798C986A9 /* SCK_Casual01.png */,
+				87A1C730CE4DF0C8D3A0E144 /* Products */,
+				75AB1BB5430C7B0A3EFE9672 /* Resources */,
+				212FDB3E0E7C944CABFDEC21 /* Xcconfigs */,
+				2A588DCF1F8123207E7C791F /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		9826D33E49A03A521C472DE6 = {
+			isa = PBXGroup;
+			children = (
+				82106CC08499578524679D43 /* ObstacleAssult */,
+				CF746C0FF4BEC24D1E04EB4B /* ObstacleAssult.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Source";
+			sourceTree = "<absolute>";
+		};
+		82106CC08499578524679D43 = {
+			isa = PBXGroup;
+			children = (
+				6D2201172F39A8A80AE1F28F /* MovingPlatform.cpp */,
+				FB3539D67B5D22AEC659063B /* MovingPlatform.h */,
+				8A3868EDC5BA473C03160F5B /* ObstacleAssult.Build.cs */,
+				67E2EB6606F6E6557DF4CFB5 /* ObstacleAssult.cpp */,
+				57AB909174F175353C17EB17 /* ObstacleAssult.h */,
+			);
+			name = "ObstacleAssult";
+			path = "/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult";
+			sourceTree = "<absolute>";
+		};
+		87A1C730CE4DF0C8D3A0E144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011D1D682EF7CC9AD8746E64 /* ObstacleAssult */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AB1BB5430C7B0A3EFE9672 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00F90B148E3D8203D2F96B67 /* Assets.xcassets */,
+				F143CF6690FBDBFFC43B9FE3 /* LaunchScreen.storyboardc */,
+				3D1479432296AED3AD02CD02 /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		212FDB3E0E7C944CABFDEC21 /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				56007657EB0B2A0707BE8869 /* ObstacleAssult.xcconfig */,
+				2056E7A1D8C6FA942AE138D1 /* ObstacleAssult_DebugGame.xcconfig */,
+				2FECF88A2A3BBEE9FA323BA4 /* ObstacleAssult_Development.xcconfig */,
+				2F2B8D3CC937A981202A72EB /* ObstacleAssult_Shipping.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		2A588DCF1F8123207E7C791F /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				2E146BBC255A1314FED5FA34 /* Info-Editor.Template.plist */,
+				B62B61844ADC1754295A5345 /* Info.Template.plist */,
+				CC43F47CB2DAB55BA5D1FC87 /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		99E053C2A6A63FE4D87B8813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					EFA2C35E236C3B30898FA569 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4BB20D84F2F5C624D59B5BFF /* Build configuration list for PBXProject "ObstacleAssult" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = E2065BF0745C6348F77AF15F;
+			productRefGroup = 87A1C730CE4DF0C8D3A0E144;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA2C35E236C3B30898FA569 /* ObstacleAssult */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		EFA2C35E236C3B30898FA569 /* ObstacleAssult */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C77AB7608490E078859BE67 /* Build configuration list for PBXNativeTarget "ObstacleAssult" */;
+			buildPhases = (
+				6FDABE0B133D1F86FE8C5731 /* Resources */,
+				C2044CF7BCBE12A3C26B07C5 /* Copy Executable and Staged Data into .app */,
+				9FABC8966B1961742D50164A /* Generate dsym for archive, and strip */,
+			);
+			dependencies = (
+			);
+			name = "ObstacleAssult";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = 011D1D682EF7CC9AD8746E64;
+			productName = "ObstacleAssult";
+		};
+/* End Run_App section */
+		4C77AB7608490E078859BE67 /* Build configuration list for target ObstacleAssult */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEE572C9B026A2471EFD303 /* DebugGame */,
+				E2E1C16C40578A7177B31BB6 /* Development */,
+				4B56928F6666DB96E35BE234 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		7CEE572C9B026A2471EFD303 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2056E7A1D8C6FA942AE138D1 /* ObstacleAssult_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		E2E1C16C40578A7177B31BB6 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FECF88A2A3BBEE9FA323BA4 /* ObstacleAssult_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		4B56928F6666DB96E35BE234 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2B8D3CC937A981202A72EB /* ObstacleAssult_Shipping.xcconfig */;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		6FDABE0B133D1F86FE8C5731 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EC4967880C28FB49956DC9 /* Assets.xcassets in Resources */,
+				0E4CE5EFCE1278C880E1F1FF /* LaunchScreen.storyboardc in Resources */,
+				FD14A4DB896C4F93B91BC400 /* UEMetadata in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		C2044CF7BCBE12A3C26B07C5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable and Staged Data into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n\n# Skip syncing if desired\nif [[ ${UE_SKIP_STAGEDDATA_SYNC} -eq 1 ]]; then exit 0; fi\n\n# When building engine projects, like UnrealGame, we don't have data to stage unless something has specified UE_OVERRIDE_STAGE_DIR\nif [[ -z ${UE_OVERRIDE_STAGE_DIR} ]]; then \nSTAGED_DIR=\"${UE_PROJECT_DIR}/Saved/StagedBuilds/${UE_TARGET_PLATFORM_NAME}\"\nelse\n  STAGED_DIR=\"${UE_OVERRIDE_STAGE_DIR}\"\nfi\nif [[ -z ${STAGED_DIR} ]]; then exit 0; fi\n# Make sure the staged directory exists and has files in it\nif [[ ! -e \"${STAGED_DIR}\" || ! $(ls -A \"${STAGED_DIR}\") ]]; then \n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged build directory. The Staged location is:\"\n  echo \"  ${STAGED_DIR}\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=Mac -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi\n\necho \"Syncing ${STAGED_DIR} to ${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"\nrsync -a --delete --exclude=\"/Info.plist\" --exclude=\"/Manifest_*\" --exclude=\"/*.app\" \"${STAGED_DIR}/\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		9FABC8966B1961742D50164A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Generate dsym for archive, and strip";
+			inputPaths = (
+				"\"$(CONFIGURATION_BUILD_DIR)/$(EXECUTABLE_PATH)\""
+			);
+			outputPaths = (
+				"\"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)\""
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# Run the wrapper dsym generator\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/GenerateUniversalDSYM.sh\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\" \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\nstrip -no_code_signature_warning -D \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n\n# Remove any unused architectures from dylibs in the .app (param1) that don't match the executable (param2). Also error if a dylib is missing arches\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/ThinApp.sh\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+		4BB20D84F2F5C624D59B5BFF /* Build configuration list for target ObstacleAssult */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8120C289B983F21C36B437 /* DebugGame */,
+				8ABE1DA73322E786DE5DF116 /* Development */,
+				29248E2B644D1632146A3FA1 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		AE8120C289B983F21C36B437 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "DebugGame";
+		};
+		8ABE1DA73322E786DE5DF116 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Development";
+		};
+		29248E2B644D1632146A3FA1 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Shipping";
+		};
+	};
+	rootObject = 99E053C2A6A63FE4D87B8813 /* Project object */;
+}
