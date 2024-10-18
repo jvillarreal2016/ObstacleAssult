@@ -7,7 +7,8 @@
 			"files": [
 				"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Content/Main.umap",
 				"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Content/BP_ThirdPersonCharacter.uasset",
-				"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset"
+				"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
+				"/Users/javivillarreal/Documents/Unreal_Projects/ObstacleAssult/ObstacleAssult/Content/BP_MovingPlatform.uasset"
 			]
 		}
 	]
